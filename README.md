@@ -28,21 +28,6 @@ Synthetically generated to model realistic HR and operations data - not from a r
 | LeaveRequests | Leave type, dates, days taken, approval status |
 | PerformanceReviews | Quarterly rating and goals met per employee |
 
-## Business Questions
-
-- What's the turnover rate by department and job level?
-- Which departments are over/understaffed vs. their budget?
-- How many hours does each department spend in meetings, and how satisfied are people with them?
-- Which projects burn disproportionate meeting time relative to their budget?
-- How has performance trended over the last two years?
-
-## Key Measures (DAX)
-
-- **Turnover Rate %** - terminated / total employees
-- **Average Tenure** - avg. years between hire date and termination date (or today)
-- **Active Project Count / Budget** - filtered to Status = Active
-- **Avg Meeting Hours per Project** - total meeting hours / distinct projects with meetings
-
 ## Dashboards
 
 ### Employee Overview
@@ -60,10 +45,3 @@ KPI cards (active projects, active budget, avg meeting hours) plus budget, statu
 
 ![Projects Overview dashboard](screenshots/projects_overview.png)
 
-## Planned Additions
-
-- Employee Profile view - dropdown lookup of a single employee's stats. Not yet built.
-
-## Author
-
-[Your name] - [LinkedIn / portfolio link]
